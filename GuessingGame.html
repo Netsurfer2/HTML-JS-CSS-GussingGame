@@ -1,0 +1,52 @@
+<!doctype html>  
+<html>  
+<head>  
+<meta charset="utf-8">
+<title></title><!-- title is from the js file -->
+<link rel="stylesheet" type="text/css" href="Guessinggame.css">
+</head>
+<body>
+	<!-- form1 contents holders -->
+	<form id="form1" class="form"  method="get" name="form1">
+		<div id="numGuessGame1"><h1 id="h1NumGuessGame"></h1></div>
+			<p class="border"></p><!-- Horizontal Rule using a border instead-->
+		<div class="flexboxImage"><!-- flexbox container-->
+			<div id="fortuneTeller"><img id="idFortuneTeller" src="images/fortuneteller.png"  alt="fortuneteller"></div>
+			<div><p id="textBlock"></p></div>
+		</div><!-- end of flexbox container-->
+		<input id="clickMeButton" name="button" type="button" value="Click me!">
+		<p class="border2"></p><!-- Horizontal Rule using a border instead-->
+	</form>
+
+<!-- form2 contents holders -->
+	<form id="form2" class="form2" method="get" name="form2">
+
+		<div id="numGuessGame2">
+			<h1 id="h1NumGuessGame2"></h1>
+		</div>
+		<p class="border"></p><!-- Horizontal Rule using a border instead-->
+		<div id="posgoAheadText">
+			<p id="goAheadText"></p>
+		</div>
+		<div><p id="numberRemainingText"></p></div>
+		<div class="flexboxContainer"><!-- flexbox container (Guess text, Inputbox, SubmitButton)-->
+			<div class="posguessHereText">
+				<p id="guessHereText"></p>	
+			</div>
+			<div>
+				<input id="inputBox" type="text" name="numberInput">
+			</div>
+			<div>	
+                <input id="submitButton" name="submitButton" type="button" value="Click to submit">
+			</div>		
+		</div><!-- End of flexbox container.-->
+		<div id="posGameStatus"><p id="gameStatus"></p></div>
+		<div><p class="border3"></p></div><!-- Horizontal Rule using a border instead-->
+		<div id="posRestartBtn">
+			<input id="restartGameButton" name="button" type="button" value="Restart at anytime">
+		</div>
+	</form>
+    <!-- Load the js file last after everything else has loaded. -->
+	<script type="text/javascript" src="GuessingGame.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<style type="text/css">		
+		image { position: relative; 
+				height: 259px; 
+				width: 400px;
+			  }
+		#fortuneTeller { position: relative;
+						 margin-top: 25px;
+				}
+
+		#textBlock { font-size: 20px; 
+					 line-height: 150%;
+				   }
+		#clickMeButton { background: rgb(219,112,147);   
+						 color: rgba(255,255,255,1); 
+						 border-color: #9ecaed;
+						 border-radius: 18px;
+						 box-shadow: 0 0 10px rgba(158,202,237,1);
+						 outline: none;
+						 height: 36px;
+						 width: 135px;
+						 font-size: 16px;
+						 margin-left:450px;
+					   }
+					   
+		#submitButton { background: rgb(219,112,147);   
+						 color: rgba(255,255,255,1); 
+						 border-color: #9ecaed;
+						 border-radius: 18px;
+						 box-shadow: 0 0 10px rgba(158,202,237,1);
+						 outline: none;
+						 height: 35px;
+						 width: 195px;
+						 font-size: 16px;
+						 margin-left:50px;
+						 margin-top: 5px;
+					   }					   
+		#goAheadText { position: relative;
+					   padding-top: 50px;
+					 }
+
+		#restartGameButton { position: relative;  
+							 color: rgba(255,255,255,1); 
+							 border-color: #9ecaed;
+							 border-radius: 18px;
+							 box-shadow: 0 0 10px rgba(158,202,237,1);
+							 outline: none;
+							 height: 35px;
+							 width: 185px;
+							 font-size: 16px;
+							 margin-left:245px;
+							 background: rgba(255,0,0,.9);   
+							 border-color: #9ecaed;
+						   }
+		
+		#gameStatus { position: relative;
+					  padding-top: 10px;
+					}
+										   
+		.flexboxImage { display: flex;
+						padding-top: 15px;
+					  } 
+					  
+		#numGuessGame2 { position: relative;
+						 margin-top: -45px;
+						 font-size: 100%;
+					   }	
+		#inputBox { position: relative;
+					width: 75px;
+					height: 30px;
+					margin-left: 10px;
+					margin-top: 5px;
+					font-size:24px;
+					text-align: center; 
+					color: rgb(219,112,147);
+				  }					   				   
+					  					   
+		.border { border-bottom:  1px;
+				  border-style: solid;
+				  border-bottom-color: rgba(225,255,255,.9);
+				  margin: -25px auto;
+				}
+		
+		.border2 { border-bottom:  1px;
+				  border-style: solid;
+				  border-bottom-color: rgba(225,255,255,.9);
+				  margin: 285px auto;
+				 }
+				 
+		.border3 { border-bottom:  1px;
+				  border-style: solid;
+				  border-bottom-color: rgba(225,255,255,.9);
+				  margin: 434px auto;
+				 }
+				 
+		#posRestartBtn { margin-top: -416px; }
+		
+		.form { background-color: rgba(225,225,225,1); 
+			  font-family: Calibri, San-Serif, Helvetica;
+			  width: 675px; 
+			  height: 650px;
+			  border: 3px solid rgba(255,255,255,.8);
+			  border-style: outset;
+			  border-radius: 25px;
+			  margin: 25px auto;
+			  padding: 50px; 
+			 }
+			 
+			 
+		.form2 { background-color: rgba(225,225,225,1);
+				 font-family: Helvetica, Arial, San-Serif;
+				 display: inline-block;
+				 width: 675px; 
+				 height: 650px;
+				 border: 3px solid rgba(255,255,255,.8);
+				 border-style: outset;
+				 border-radius: 25px;
+				 margin: 25px auto;
+				 padding: 50px; 
+			   }
+
+		.posguessHereText { position: relative;
+						  }
+						  
+		.flexboxContainer{ display: flex; 
+						   margin-top: -5px;
+						}
+
+		h1 { text-align: center; 
+			 color: rgb(219,112,147);
+		   }
+		   
+		#numGuessGame1 { position: relative;
+						  margin-top: -50px;
+						  font-size: 100%;
+					   }
+					   
+		#posGameStatus {max-height: 0px;}
+		
+	    body { background-color: rgb(219,112,147); 
+			   background-image: url("images/questionmark.jpg");
+			   background-repeat: repeat;
+			   font-family: Calibri, San-Serif, Helvetica, Arial; 
+			 } 					
+					
+</style>	
